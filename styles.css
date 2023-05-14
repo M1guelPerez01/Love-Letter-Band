@@ -1,0 +1,147 @@
+/* Notes: "." looking for class */
+/* Notes: "#" looking for id */
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  line-height: 60px;
+  background-color: black;
+}
+  
+  /* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:pink;
+    overflow-x: hidden;
+  }
+  
+  
+  /* Side navigation links */
+.sidenav a {
+    color: red;
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+.sidenav a:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  /* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+  }
+
+.mainBanner {
+  position: relative;
+  margin: auto;
+  width: 1080px;
+  height: 520px;
+  left: 22%;
+}
+
+.mainText{
+  margin: auto;
+}
+
+.bio {
+  position: relative;
+  margin: auto;
+}
+
+/* Centers content within text-center class*/
+.text-center {
+  text-align: center;
+}
+
+/* band vibe image */
+.bandVibes {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 5px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.reversecolumn-1 {
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+
+.reversecolumn {
+  float: right;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 5px;
+}
+
+/* character profile pic columns */
+img.MenmaProfile {
+  position: relative;
+  left: 60%;
+}
+
+img.ElizabethProfile {
+  position: relative;
+}
+
+img.AdrienProfile {
+  position: relative;
+  left: 58%;
+}
+
+img.CarlyProfile {
+  position: relative;
+}
+
+/* character discription text columns */
+.c-discription {
+   width: 400px;
+   float: left;
+   margin-left: 10px;
+} 
