@@ -140,8 +140,14 @@ img.CarlyProfile {
 }
 
 /* character discription text columns */
-.c-discription {
+.a-discription {
    width: 400px;
    float: left;
    margin-left: 10px;
 } 
+
+/*.b-discription {
+  width: 400px;
+  float: right;
+  margin-right: 10px;
+} */
